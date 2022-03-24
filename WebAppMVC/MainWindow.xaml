@@ -1,0 +1,14 @@
+﻿<Window x:Class="WebAppMVC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebAppMVC"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name ="tbxNumbers"  HorizontalAlignment="Center" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="780" Height="254"/>
+        <Button Name ="Start" Content="Button" HorizontalAlignment="Center" Margin="0,349,0,0" VerticalAlignment="Top" Height="44" Width="172" Click="Start_Click"/>
+        <Slider Name ="slSleep" HorizontalAlignment="Left" Margin="544,362,0,0" VerticalAlignment="Top" Width="120" Maximum="5" Value="1" Minimum="0.5"/>
+    </Grid>
+</Window>
